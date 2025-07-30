@@ -1,0 +1,214 @@
+/* FOOTER */
+.footer {
+  background-color: #aab9c3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffcc;
+  padding: 10px 20px;
+}
+
+/* NAVBAR */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* LOGIN */
+.login-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffcc;
+  min-height: 80vh;
+}
+
+.login-form-container {
+  background-color: #e6e6e6;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-links {
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-image {
+  text-align: center;
+}
+
+.login-image img {
+  width: 400px;
+  margin-bottom: 10px;
+}
+/* Register Page Styles */
+/* REGISTER PAGE STYLES */
+.register-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffcc;
+  min-height: 80vh;
+}
+
+.register-form-container {
+  background-color: #e6e6e6;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #90ee90;
+}
+
+.register-links {
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-links a {
+  color: #3333ff;
+  text-decoration: none;
+}
+
+.register-links a:hover {
+  text-decoration: underline;
+}
+
+.register-image {
+  text-align: center;
+}
+
+.register-image img {
+  width: 400px;
+  margin-bottom: 10px;
+}
+/* HOME PAGE STYLES */
+.home-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffcc;
+  padding: 50px 30px;
+  min-height: 80vh;
+}
+
+.home-content {
+  max-width: 500px;
+  background-color: #e6e6e6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-content h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #90ee90;
+}
+
+.home-image img {
+  width: 400px;
+}
